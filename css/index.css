@@ -83,7 +83,7 @@ img {
 /* HEADER */
 
 header {
-    background-image: url(../img/BackgroundBig.jpg);
+    background-image: url(../img/backgroundBig.jpg);
     padding: var(--sp-xs);
 }
 
