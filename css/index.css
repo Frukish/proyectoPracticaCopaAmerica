@@ -21,6 +21,7 @@
     --text-md: 2.0em;
     --text-sm: 1.6em;
     --text-xs: 1.2em;
+    --text-xxs: 0.8em;
 
     /* SPACIADORES */
 
@@ -107,8 +108,7 @@ header {
 }
 
 .navbar .navbar__link .navbar__link__img {
-    width: 387px;
-    height: 116px;
+    width: 30vw;
 }
 
 .navbar .menu .menu__link {
@@ -134,18 +134,7 @@ header {
 
 
 
-/* MEDIAS QUERYS */
 
-@media screen and (max-width: 768px) {
-    .navbar {
-    flex-direction: column;
-    align-items: center;
-    }
-
-    .navbar .menu {
-    justify-content: center;
-    }
-}
 
 
 /* BODY */
@@ -516,4 +505,117 @@ padding: var(--sp-sm);
 .galeria__equipos__img--14 {
     grid-column: span 3;
     grid-row: 7;
+}
+
+/* MEDIAS QUERYS */
+
+@media screen and (max-width: 430px) {
+    a {
+        font-size: var(--text-xxs);
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .menu {
+        justify-content: center;
+    }
+
+    #calendario {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #equipos {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    #estadios {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .divisor__vertical {
+        display: none;
+    }
+
+    .calendario__titulo {
+        font-size: var(--text-md);
+    }
+
+    .estadios__titulo {
+        font-size: var(--text-md);
+    }
+
+    .equipos__titulo {
+        font-size: var(--text-md);
+    }
+
+    .foto__copa {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .foto__formacion {
+        width: 90vw;
+        height: 50vw;
+    }
+
+    .estadio--1 {
+        width: 50vw;
+        height: 50vw;
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 1049px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        font-size: var(--text-xs);
+    }
+    #calendario {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #equipos {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    #estadios {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .divisor__vertical {
+        display: none;
+    }
+
+    .calendario__titulo {
+        font-size: var(--text-md);
+    }
+
+    .estadios__titulo {
+        font-size: var(--text-md);
+    }
+
+    .equipos__titulo {
+        font-size: var(--text-md);
+    }
+}
+
+@media screen and (min-width: 1050px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        font-size: var(--text-xs);
+    }
+
+    .navbar .menu {
+        justify-content: center;
+    }
 }
