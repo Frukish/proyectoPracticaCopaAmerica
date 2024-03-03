@@ -1,0 +1,189 @@
+/* FORMACIONES */
+
+#formaciones {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    gap: var(--sp-md);
+
+    .formacion:nth-of-type(1) {
+        grid-column: span 3;
+        grid-row: 1;
+    }
+    
+    .formacion:nth-of-type(2) {
+        grid-column: span 4;
+        grid-row: 2;
+    }
+    .formacion:nth-of-type(3) {
+        grid-column: span 4;
+        grid-row: 3;
+    }
+    
+    .formacion:nth-of-type(4) {
+        grid-column: span 4;
+        grid-row: 4;
+    }
+    
+    .formacion:nth-of-type(5) {
+        grid-column: span 4;
+        grid-row: 5;
+    }
+    
+    .formacion:nth-of-type(6) {
+        grid-column: span 4;
+        grid-row: 6;
+    }
+    
+    .formacion:nth-of-type(7) {
+        grid-column: span 4;
+        grid-row: 7;
+    }
+    
+    .formacion:nth-of-type(8) {
+        grid-column: span 4;
+        grid-row: 8;
+    }
+    
+    .formacion:nth-of-type(9) {
+        grid-column: span 4;
+        grid-row: 9;
+    }
+    
+    .formacion:nth-of-type(10) {
+        grid-column: span 4;
+        grid-row: 10;
+    }
+    
+    .formacion:nth-of-type(11) {
+        grid-column: span 4;
+        grid-row: 11;
+    }
+    
+    .formacion:nth-of-type(12) {
+        grid-column: span 4;
+        grid-row: 12;
+    }
+    
+    .formacion:nth-of-type(13) {
+        grid-column: span 4;
+        grid-row: 13;
+    }
+
+    .formacion:nth-of-type(13) {
+        grid-column: span 4;
+        grid-row: 14;
+    }
+    
+    .formacion__articulo:nth-of-type(1) {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 1;
+    }
+    
+    .formacion__articulo:nth-of-type(2) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 2;
+    }
+    
+    .formacion__articulo:nth-of-type(3) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 3;
+    }
+    
+    .formacion__articulo:nth-of-type(4) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 4;
+    }
+    
+    .formacion__articulo:nth-of-type(5) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 5;
+    }
+    
+    .formacion__articulo:nth-of-type(6) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 6;
+    }
+    
+    .formacion__articulo:nth-of-type(7) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 7;
+    }
+    
+    .formacion__articulo:nth-of-type(8) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 8;
+    }
+    
+    .formacion__articulo:nth-of-type(9) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 9;
+    }
+    
+    .formacion__articulo:nth-of-type(10) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 10;
+    }
+    
+    .formacion__articulo:nth-of-type(11) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 11;
+    }
+    
+    .formacion__articulo:nth-of-type(12) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 12;
+    }
+    
+    .formacion__articulo:nth-of-type(13) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 13;
+    }
+
+    .formacion__articulo:nth-of-type(13) {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        grid-column: span 8;
+        grid-row: 14;
+    }
+}

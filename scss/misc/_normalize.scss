@@ -1,0 +1,47 @@
+/* NORMALIZE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 62.5%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;;
+    color: var(--text);
+    background-image: url(../img/backgroundBig.jpg);
+    background-attachment: scroll;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: var(--text-sm);
+    color: var(--light);
+    text-decoration: none;
+}
+
+h2 {
+    font-size: var(--text-xl);
+    font-weight: normal;
+
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.enlace__entrar {
+    font-weight: bold;
+}

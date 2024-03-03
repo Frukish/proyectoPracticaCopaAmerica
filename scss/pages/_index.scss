@@ -1,0 +1,83 @@
+.titulo__principal {
+    font-size:  var(--text-xxl);
+    padding: var(--sp-md) var(--sp-md);
+}
+
+#calendario {
+    padding: var(--sp-md);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: center;
+    background-color: var(--primary);
+
+    .foto__copa {
+        width: 324px;
+        height: 324px;
+    }
+
+    .calendario__articulo {
+        flex-wrap: wrap;
+        padding: var(--sp-sm);
+        }
+
+    .divisor__vertical {
+            display: flex;
+            margin: var(--sp-sm);
+            height: 324px;
+    }
+
+    .divisor__horizontal__largo {
+        display: flex;
+        margin: var(--sp-sm) var(--sp-sm) var(--sp-sm) 0;
+        width: 95px;
+    }
+    
+    .divisor__horizontal__corto {
+        display: flex;
+        margin: var(--sp-sm) var(--sp-sm) var(--sp-sm) 0;
+        width: 74px;
+    }
+}
+
+#estadios {
+    padding: var(--sp-md);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-items: center;
+    background-color: var(--primary);
+
+    .estadio--1 {
+        width: 324px;
+        height: 324px;
+    }
+
+    .estadios__articulo {
+        flex-wrap: wrap;
+        padding: var(--sp-sm);
+    }
+}
+
+#equipos {
+    padding: var(--sp-md);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: center;
+    background-color: var(--primary);
+
+    .equipos__articulo {
+        flex-wrap: wrap;
+        padding: var(--sp-sm);
+    }
+    
+    .foto__formacion {
+        display: flex;
+        justify-content: flex-start;
+        width: 452px;
+        height: 254px;
+    }
+}
+
+

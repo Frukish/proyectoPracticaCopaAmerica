@@ -1,0 +1,152 @@
+/* EQUIPOS */
+
+#galeria__equipos {
+    background-color: var(--light);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 2fr, 1fr);
+    gap: var(--sp-sm);
+
+    .galeria__equipos__img--1 {
+        grid-column: span 3;
+        grid-row: 1;
+    }
+
+    .galeria__equipos__img--2 {
+        grid-column: span 3;
+        grid-row: 1;
+    }
+
+    .galeria__equipos__img--3 {
+        grid-column: span 3;
+        grid-row: 1;
+    }
+
+    .galeria__equipos__img--4 {
+        grid-column: span 3;
+        grid-row: 1;
+    }
+
+    .galeria__equipos__img--5 {
+        grid-column: span 3;
+        grid-row: 3;
+    }
+
+    .galeria__equipos__img--6 {
+        grid-column: span 3;
+        grid-row: 3;
+    }
+
+    .galeria__equipos__img--7 {
+        grid-column: span 3;
+        grid-row: 3;
+    }
+
+    .galeria__equipos__img--8 {
+        grid-column: span 3;
+        grid-row: 3;
+    }
+
+    .galeria__equipos__img--9 {
+        grid-column: span 3;
+        grid-row: 5;
+    }
+
+    .galeria__equipos__img--10 {
+        grid-column: span 3;
+        grid-row: 5;
+    }
+
+    .galeria__equipos__img--11 {
+        grid-column: span 3;
+        grid-row: 5;
+    }
+
+    .galeria__equipos__img--12 {
+        grid-column: span 3;
+        grid-row: 5;
+    }
+
+    .galeria__equipos__img--13 {
+        grid-column: span 3;
+        grid-row: 7;
+    }
+
+    .galeria__equipos__img--14 {
+        grid-column: span 3;
+        grid-row: 7;
+    }
+
+    .galeria__equipos__frase--1 {
+        grid-column: span 3;
+        grid-row: 2;
+    }
+
+    .galeria__equipos__frase--2 {
+        grid-column: span 3;
+        grid-row: 2;
+    }
+
+    .galeria__equipos__frase--3 {
+        grid-column: span 3;
+        grid-row: 2;
+    }
+
+    .galeria__equipos__frase--4 {
+        grid-column: span 3;
+        grid-row: 2;
+    }
+
+    .galeria__equipos__frase--5 {
+        grid-column: span 3;
+        grid-row: 4;
+    }
+
+    .galeria__equipos__frase--6 {
+        grid-column: span 3;
+        grid-row: 4;
+    }
+
+    .galeria__equipos__frase--7 {
+        grid-column: span 3;
+        grid-row: 4;
+    }
+
+    .galeria__equipos__frase--8 {
+        grid-column: span 3;
+        grid-row: 4;
+    }
+
+    .galeria__equipos__frase--9 {
+        grid-column: span 3;
+        grid-row: 6;
+    }
+
+    .galeria__equipos__frase--10 {
+        grid-column: span 3;
+        grid-row: 6;
+    }
+
+    .galeria__equipos__frase--11 {
+        grid-column: span 3;
+        grid-row: 6;
+    }
+
+    .galeria__equipos__frase--12 {
+        grid-column: span 3;
+        grid-row: 6;
+    }
+
+    .galeria__equipos__frase--13 {
+        grid-column: span 3;
+        grid-row: 8;
+    }
+
+    .galeria__equipos__frase--14 {
+        grid-column: span 3;
+        grid-row: 8;
+    }
+
+
+
+}
