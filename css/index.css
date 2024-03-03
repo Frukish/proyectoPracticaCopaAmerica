@@ -1,40 +1,40 @@
 /* IMPORTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap'); */
 
 /* VARIABLES */
 
-:root {
+/* :root { */
     /* PALETA DE COLORES */
 
-    --primary: #000064;
+    /* --primary: #000064;
     --secondary: #54595F;
     --light: #FDFDFD;
     --accent: #0707AD;
-    --text: #fff;
+    --text: #fff; */
 
     /* TAMAÑOS DE FUENTES */
-
+/* 
     --text-xxl: 4.8em;
     --text-xl: 3.6em;
     --text-lg: 3.2em;
     --text-md: 2.0em;
     --text-sm: 1.6em;
     --text-xs: 1.2em;
-    --text-xxs: 0.8em;
+    --text-xxs: 0.8em; */
 
     /* SPACIADORES */
-
+/* 
     --sp-xxl: 12rem;
     --sp-xl: 8rem;
     --sp-lg: 5rem;
     --sp-md: 3.2rem;
     --sp-sm: 1.6rem;
     --sp-xs: 0.8rem;
-}
+} */
 
 /* NORMALIZE */
-
+/* 
 * {
     margin: 0;
     padding: 0;
@@ -82,7 +82,7 @@ img {
 }
 
 /* HEADER */
-
+/* 
 header {
     background-image: url(../img/backgroundBig.jpg);
     padding: var(--sp-xs);
@@ -119,7 +119,7 @@ header {
 .navbar .menu .menu__link:hover {
     background-color: var(--light);
     color: var(--accent);
-}
+} */ 
 
 
 
@@ -138,7 +138,7 @@ header {
 
 
 /* BODY */
-
+/* 
 .titulo__principal {
     font-size:  var(--text-xxl);
     padding: var(--sp-md) var(--sp-md);
@@ -219,295 +219,63 @@ padding: var(--sp-sm);
     justify-content: flex-start;
     width: 452px;
     height: 254px;
-}
+} */
 
-/* ESTADIOS */
 
-#galeria__estadios {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(13, 1fr);
-    gap: var(--sp-md);
-}
 
-.galeria__estadios__img--1 {
-    grid-column: span 4;
-    grid-row: 1;
-}
 
-.galeria__estadios__img--2 {
-    grid-column: span 4;
-    grid-row: 2;
-}
-.galeria__estadios__img--3 {
-    grid-column: span 4;
-    grid-row: 3;
-}
-
-.galeria__estadios__img--4 {
-    grid-column: span 4;
-    grid-row: 4;
-}
-
-.galeria__estadios__img--5 {
-    grid-column: span 4;
-    grid-row: 5;
-}
-
-.galeria__estadios__img--6 {
-    grid-column: span 4;
-    grid-row: 6;
-}
-
-.galeria__estadios__img--7 {
-    grid-column: span 4;
-    grid-row: 7;
-}
-
-.galeria__estadios__img--8 {
-    grid-column: span 4;
-    grid-row: 8;
-}
-
-.galeria__estadios__img--9 {
-    grid-column: span 4;
-    grid-row: 9;
-}
-
-.galeria__estadios__img--10 {
-    grid-column: span 4;
-    grid-row: 10;
-}
-
-.galeria__estadios__img--11 {
-    grid-column: span 4;
-    grid-row: 11;
-}
-
-.galeria__estadios__img--12 {
-    grid-column: span 4;
-    grid-row: 12;
-}
-
-.galeria__estadios__img--13 {
-    grid-column: span 4;
-    grid-row: 13;
-}
-
-.galeria__estadios__articulo--1 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 1;
-}
-
-.galeria__estadios__articulo--2 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 2;
-}
-.galeria__estadios__articulo--3 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 3;
-}
-
-.galeria__estadios__articulo--4 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 4;
-}
-
-.galeria__estadios__articulo--5 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 5;
-}
-
-.galeria__estadios__articulo--6 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 6;
-}
-
-.galeria__estadios__articulo--7 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 7;
-}
-
-.galeria__estadios__articulo--8 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 8;
-}
-
-.galeria__estadios__articulo--9 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 9;
-}
-
-.galeria__estadios__articulo--10 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 10;
-}
-
-.galeria__estadios__articulo--11 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 11;
-}
-
-.galeria__estadios__articulo--12 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 12;
-}
-
-.galeria__estadios__articulo--13 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    grid-column: span 8;
-    grid-row: 13;
-}
-
-/* EQUIPOS */
-
-#galeria__equipos {
-    background-color: var(--light);
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(8, 2fr, 1fr);
-    gap: var(--sp-sm);
-}
-
-.galeria__fondo {
-    background-color: var(--light);
-    opacity: 0.5;
-}
-
-.galeria__equipos__img--1 {
-    grid-column: span 3;
-    grid-row: 1;
-}
-
-.galeria__equipos__frase--1 {
-    grid-column: span 3;
-    grid-row: 2;
-}
-
-.galeria__equipos__img--2 {
-    grid-column: span 3;
-    grid-row: 1;
-}
-
-.galeria__equipos__frase--2 {
-    grid-column: span 3;
-    grid-row: 2;
-}
-
-.galeria__equipos__img--3 {
-    grid-column: span 3;
-    grid-row: 1;
-}
-
-.galeria__equipos__frase--3 {
-    grid-column: span 3;
-    grid-row: 2;
-}
-
-.galeria__equipos__img--4 {
-    grid-column: span 3;
-    grid-row: 1;
-}
-
-.galeria__equipos__frase--4 {
-    grid-column: span 3;
-    grid-row: 2;
-}
-
-.galeria__equipos__img--5 {
-    grid-column: span 3;
-    grid-row: 3;
-}
-
-.galeria__equipos__frase--5 {
-    grid-column: span 3;
-    grid-row: 4;
-}
-
-.galeria__equipos__img--6 {
-    grid-column: span 3;
-    grid-row: 3;
-}
-
-.galeria__equipos__img--7 {
-    grid-column: span 3;
-    grid-row: 3;
-}
-
-.galeria__equipos__img--8 {
-    grid-column: span 3;
-    grid-row: 3;
-}
-
-.galeria__equipos__img--9 {
-    grid-column: span 3;
-    grid-row: 5;
-}
-
-.galeria__equipos__img--10 {
-    grid-column: span 3;
-    grid-row: 5;
-}
-
-.galeria__equipos__img--11 {
-    grid-column: span 3;
-    grid-row: 5;
-}
-
-.galeria__equipos__img--12 {
-    grid-column: span 3;
-    grid-row: 5;
-}
-
-.galeria__equipos__img--13 {
-    grid-column: span 3;
-    grid-row: 7;
-}
-
-.galeria__equipos__img--14 {
-    grid-column: span 3;
-    grid-row: 7;
-}
 
 /* MEDIAS QUERYS */
+
+/* @media screen and (min-width: 1050px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        font-size: var(--text-xs);
+    }
+
+    .navbar .menu {
+        justify-content: center;
+    }
+} */
+
+/* @media screen and (max-width: 1049px) { */
+    /* .navbar {
+        flex-direction: column;
+        align-items: center;
+        font-size: var(--text-xxs);
+    } */
+    /* #calendario {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #equipos {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #estadios {
+        flex-direction: row;
+        align-items: center;
+    }
+    .divisor__vertical {
+        display: none;
+    }
+
+    .calendario__titulo {
+        font-size: var(--text-md);
+    }
+
+    .estadios__titulo {
+        font-size: var(--text-md);
+    }
+
+    .equipos__titulo {
+        font-size: var(--text-md);
+    }
+}
 
 @media screen and (max-width: 430px) {
     a {
@@ -568,54 +336,4 @@ padding: var(--sp-sm);
         width: 50vw;
         height: 50vw;
     }
-}
-
-@media screen and (min-width: 431px) and (max-width: 1049px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-        font-size: var(--text-xxs);
-    }
-    #calendario {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    #equipos {
-        flex-direction: row;
-        align-items: center;
-    }
-    
-    #estadios {
-        flex-direction: row;
-        align-items: center;
-    }
-    .divisor__vertical {
-        display: none;
-    }
-
-    .calendario__titulo {
-        font-size: var(--text-md);
-    }
-
-    .estadios__titulo {
-        font-size: var(--text-md);
-    }
-
-    .equipos__titulo {
-        font-size: var(--text-md);
-    }
-}
-
-@media screen and (min-width: 1050px) {
-
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-        font-size: var(--text-xs);
-    }
-
-    .navbar .menu {
-        justify-content: center;
-    }
-}
+} */
