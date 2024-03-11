@@ -378,129 +378,99 @@ header {
 #formaciones {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(14, 1fr);
+  grid-template-rows: repeat(14, 0fr);
   gap: var(--sp-md); }
-  #formaciones .formacion:nth-of-type(1) {
-    grid-column: span 3;
-    grid-row: 1; }
-  #formaciones .formacion:nth-of-type(2) {
+  #formaciones .formaciones__img:nth-of-type(1) {
     grid-column: span 4;
-    grid-row: 2; }
-  #formaciones .formacion:nth-of-type(3) {
+    grid-row: 1; }
+  #formaciones .formaciones__img:nth-of-type(2) {
     grid-column: span 4;
     grid-row: 3; }
-  #formaciones .formacion:nth-of-type(4) {
-    grid-column: span 4;
-    grid-row: 4; }
-  #formaciones .formacion:nth-of-type(5) {
+  #formaciones .formaciones__img:nth-of-type(3) {
     grid-column: span 4;
     grid-row: 5; }
-  #formaciones .formacion:nth-of-type(6) {
-    grid-column: span 4;
-    grid-row: 6; }
-  #formaciones .formacion:nth-of-type(7) {
+  #formaciones .formaciones__img:nth-of-type(4) {
     grid-column: span 4;
     grid-row: 7; }
-  #formaciones .formacion:nth-of-type(8) {
-    grid-column: span 4;
-    grid-row: 8; }
-  #formaciones .formacion:nth-of-type(9) {
-    grid-column: span 4;
-    grid-row: 9; }
-  #formaciones .formacion:nth-of-type(10) {
-    grid-column: span 4;
-    grid-row: 10; }
-  #formaciones .formacion:nth-of-type(11) {
-    grid-column: span 4;
-    grid-row: 11; }
-  #formaciones .formacion:nth-of-type(12) {
-    grid-column: span 4;
-    grid-row: 12; }
-  #formaciones .formacion:nth-of-type(13) {
-    grid-column: span 4;
-    grid-row: 13; }
-  #formaciones .formacion:nth-of-type(13) {
-    grid-column: span 4;
-    grid-row: 14; }
-  #formaciones .formacion__articulo:nth-of-type(1) {
+  #formaciones .formaciones__articulo:nth-of-type(1) {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 1; }
-  #formaciones .formacion__articulo:nth-of-type(2) {
+  #formaciones .formaciones__articulo:nth-of-type(2) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 2; }
-  #formaciones .formacion__articulo:nth-of-type(3) {
+  #formaciones .formaciones__articulo:nth-of-type(3) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 3; }
-  #formaciones .formacion__articulo:nth-of-type(4) {
+  #formaciones .formaciones__articulo:nth-of-type(4) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 4; }
-  #formaciones .formacion__articulo:nth-of-type(5) {
+  #formaciones .formaciones__articulo:nth-of-type(5) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 5; }
-  #formaciones .formacion__articulo:nth-of-type(6) {
+  #formaciones .formaciones__articulo:nth-of-type(6) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 6; }
-  #formaciones .formacion__articulo:nth-of-type(7) {
+  #formaciones .formaciones__articulo:nth-of-type(7) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 7; }
-  #formaciones .formacion__articulo:nth-of-type(8) {
+  #formaciones .formaciones__articulo:nth-of-type(8) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 8; }
-  #formaciones .formacion__articulo:nth-of-type(9) {
+  #formaciones .formaciones__articulo:nth-of-type(9) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 9; }
-  #formaciones .formacion__articulo:nth-of-type(10) {
+  #formaciones .formaciones__articulo:nth-of-type(10) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 10; }
-  #formaciones .formacion__articulo:nth-of-type(11) {
+  #formaciones .formaciones__articulo:nth-of-type(11) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 11; }
-  #formaciones .formacion__articulo:nth-of-type(12) {
+  #formaciones .formaciones__articulo:nth-of-type(12) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 12; }
-  #formaciones .formacion__articulo:nth-of-type(13) {
+  #formaciones .formaciones__articulo:nth-of-type(13) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     grid-column: span 8;
     grid-row: 13; }
-  #formaciones .formacion__articulo:nth-of-type(13) {
+  #formaciones .formaciones__articulo:nth-of-type(14) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
