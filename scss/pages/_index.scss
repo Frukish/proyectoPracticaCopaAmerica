@@ -57,6 +57,23 @@
         flex-wrap: wrap;
         padding: var(--sp-sm);
     }
+    .divisor__vertical {
+        display: flex;
+        margin: var(--sp-sm);
+        height: 324px;
+}
+
+    .divisor__horizontal__largo {
+    display: flex;
+    margin: var(--sp-sm) var(--sp-sm) var(--sp-sm) 0;
+    width: 95px;
+}
+
+    .divisor__horizontal__corto {
+    display: flex;
+    margin: var(--sp-sm) var(--sp-sm) var(--sp-sm) 0;
+    width: 74px;
+}
 }
 
 #equipos {
@@ -78,6 +95,24 @@
         width: 452px;
         height: 254px;
     }
+
+    .divisor__vertical {
+        display: flex;
+        margin: var(--sp-sm);
+        height: 324px;
+}
+
+    .divisor__horizontal__largo {
+    display: flex;
+    margin: var(--sp-sm) var(--sp-sm) var(--sp-sm) 0;
+    width: 95px;
+}
+
+    .divisor__horizontal__corto {
+    display: flex;
+    margin: var(--sp-sm) var(--sp-sm) var(--sp-sm) 0;
+    width: 74px;
+}
 }
 
 

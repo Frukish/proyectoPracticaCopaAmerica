@@ -141,6 +141,18 @@ header {
   #estadios .estadios__articulo {
     flex-wrap: wrap;
     padding: var(--sp-sm); }
+  #estadios .divisor__vertical {
+    display: flex;
+    margin: var(--sp-sm);
+    height: 324px; }
+  #estadios .divisor__horizontal__largo {
+    display: flex;
+    margin: var(--sp-sm) var(--sp-sm) var(--sp-sm) 0;
+    width: 95px; }
+  #estadios .divisor__horizontal__corto {
+    display: flex;
+    margin: var(--sp-sm) var(--sp-sm) var(--sp-sm) 0;
+    width: 74px; }
 
 #equipos {
   padding: var(--sp-md);
@@ -157,6 +169,18 @@ header {
     justify-content: flex-start;
     width: 452px;
     height: 254px; }
+  #equipos .divisor__vertical {
+    display: flex;
+    margin: var(--sp-sm);
+    height: 324px; }
+  #equipos .divisor__horizontal__largo {
+    display: flex;
+    margin: var(--sp-sm) var(--sp-sm) var(--sp-sm) 0;
+    width: 95px; }
+  #equipos .divisor__horizontal__corto {
+    display: flex;
+    margin: var(--sp-sm) var(--sp-sm) var(--sp-sm) 0;
+    width: 74px; }
 
 /* EQUIPOS */
 #galeria__equipos {
@@ -378,101 +402,131 @@ header {
 #formaciones {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(14, 0fr);
+  grid-template-rows: repeat(14, 1fr);
   gap: var(--sp-md); }
   #formaciones .formaciones__img:nth-of-type(1) {
     grid-column: span 4;
     grid-row: 1; }
   #formaciones .formaciones__img:nth-of-type(2) {
     grid-column: span 4;
-    grid-row: 3; }
+    grid-row: 2; }
   #formaciones .formaciones__img:nth-of-type(3) {
     grid-column: span 4;
-    grid-row: 5; }
+    grid-row: 3; }
   #formaciones .formaciones__img:nth-of-type(4) {
     grid-column: span 4;
+    grid-row: 4; }
+  #formaciones .formaciones__img:nth-of-type(5) {
+    grid-column: span 4;
+    grid-row: 5; }
+  #formaciones .formaciones__img:nth-of-type(6) {
+    grid-column: span 4;
+    grid-row: 6; }
+  #formaciones .formaciones__img:nth-of-type(7) {
+    grid-column: span 4;
     grid-row: 7; }
+  #formaciones .formaciones__img:nth-of-type(8) {
+    grid-column: span 4;
+    grid-row: 8; }
+  #formaciones .formaciones__img:nth-of-type(9) {
+    grid-column: span 4;
+    grid-row: 9; }
+  #formaciones .formaciones__img:nth-of-type(10) {
+    grid-column: span 4;
+    grid-row: 10; }
+  #formaciones .formaciones__img:nth-of-type(11) {
+    grid-column: span 4;
+    grid-row: 11; }
+  #formaciones .formaciones__img:nth-of-type(12) {
+    grid-column: span 4;
+    grid-row: 12; }
+  #formaciones .formaciones__img:nth-of-type(13) {
+    grid-column: span 4;
+    grid-row: 13; }
+  #formaciones .formaciones__img:nth-of-type(14) {
+    grid-column: span 4;
+    grid-row: 14; }
   #formaciones .formaciones__articulo:nth-of-type(1) {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-flow: column wrap;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 1; }
   #formaciones .formaciones__articulo:nth-of-type(2) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 2; }
   #formaciones .formaciones__articulo:nth-of-type(3) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 3; }
   #formaciones .formaciones__articulo:nth-of-type(4) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 4; }
   #formaciones .formaciones__articulo:nth-of-type(5) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 5; }
   #formaciones .formaciones__articulo:nth-of-type(6) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 6; }
   #formaciones .formaciones__articulo:nth-of-type(7) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 7; }
   #formaciones .formaciones__articulo:nth-of-type(8) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 8; }
   #formaciones .formaciones__articulo:nth-of-type(9) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 9; }
   #formaciones .formaciones__articulo:nth-of-type(10) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 10; }
   #formaciones .formaciones__articulo:nth-of-type(11) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 11; }
   #formaciones .formaciones__articulo:nth-of-type(12) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 12; }
   #formaciones .formaciones__articulo:nth-of-type(13) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 13; }
   #formaciones .formaciones__articulo:nth-of-type(14) {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     grid-column: span 8;
     grid-row: 14; }
